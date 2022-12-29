@@ -8,7 +8,7 @@
 - 컴퓨터에서 연속적으로 실행되고 있는 컴퓨터 프로그램으로, **메모리에 올라와 실행되고 있는 프로그램의 인스턴스를 말한다.**
 - 프로세스는 운영체제로부터 시스템 자원을 할당받는 작업의 단위이며 **즉,** **동적인 개념으로는 실행된 프로그램을 의미한다.**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4df2bad8-12c5-4384-952d-61b63dcf5413/Untitled.png)
+![image](https://user-images.githubusercontent.com/50287759/209945054-2d36525d-360b-467f-9913-44c08017abbd.png)
 
 ## 프로세스 특징
 
@@ -17,14 +17,15 @@
 - **각 프로세스는 별도의 주소 공간에서 실행되며, 한 프로세스는 다른 프로세스의 변수나 자료구조에 접근할 수 없다.**
 - 한 프로세스가 다른 프로세스의 자원에 접근하려면 프로세스 간의 통신(IPC, inter-process communication)을 사용해야 한다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/aaf1d28f-6880-415a-ba5b-66345e15413c/Untitled.png)
+![image](https://user-images.githubusercontent.com/50287759/209945111-45850e38-5bb8-457e-b277-4dd856a44296.png)
+
 
 ## 스레드란 ?
 
 - **프로세스 내에서 실행되는 여러 흐름의 단위로 프로세스의 특정한 수행 경로** 입니다.
 - 프로세스가 할당받은 자원을 이용하는 실행의 단위
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/055496b3-3247-47fc-94fa-275e50d04e08/Untitled.png)
+![image](https://user-images.githubusercontent.com/50287759/209945136-80d68182-adac-40da-8806-a7edd28bb8d7.png)
 
 ## 스레드 특징
 
@@ -34,7 +35,7 @@
 - 각각의 스레드는 별도의 레지스터와 스택을 갖고 있지만, 힙 메모리는 서로 읽고 쓸 수 있다.
 - 한 스레드가 프로세스 자원을 변경하면, 다른 이웃 스레드(sibling thread)도 그 변경 결과를 즉시 볼 수 있다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0badd68b-2ead-4fac-84df-4d4e372c3939/Untitled.png)
+![image](https://user-images.githubusercontent.com/50287759/209945252-325e8a29-9a39-4bc0-892f-27ecd65b4860.png)
 
 ## **스레드를 쓰는 이유?**
 
